@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 100%; height: 100%; background: #000; overflow: hidden; }
+      #game { width: 100%; height: 100%; }
+    </style>
+  </head>
+  <body>
+    <div id="game"></div>
+    <script>
+      window.EJS_player          = '#game';
+      window.EJS_core            = 'gba';
+      window.EJS_gameUrl         = '/roms/Fish.gba';
+      window.EJS_pathtodata      = 'https://cdn.emulatorjs.org/stable/data/';
+      window.EJS_color           = '#7c5cbf';
+      window.EJS_gameName        = 'Fish';
+      window.EJS_volume          = 0.5;
+      window.EJS_startOnLoaded   = true;
+    </script>
+    <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
+  </body>
+</html>
