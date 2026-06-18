@@ -1,11 +1,43 @@
-# My personal website!
+# Lila Nicpon — Personal Portfolio
 
-Thanks for checking out the code to my personal website! 
+VS Code-themed single-page portfolio. React 18 + Vite 5 + Tailwind CSS v3.
 
-It's built with Vue 3 and Vite, and hosted on GitHub Pages when I don't break it. 
+Repo: [github.com/lilaland/me](https://github.com/lilaland/me)
 
-The website is fully static, and the file structure is generated based on the /files directory in the repo during deployment. 
+## Run locally
 
-The design is inspired by an IDE, combining aspects of other personal websites I've admired over the years. I've put a lot of thought into the design and UX of the site, so if you'd like to fork it, all I ask is for you to give me a shoutout and proper attribution! 
+```bash
+npm install
+npm run dev
+```
 
-If you'd like to get in touch, you can find me on [LinkedIn](https://www.linkedin.com/in/elijahnicpon/) or [email me](mailto:eliajh@nicpon.com). 
+## Edit content
+
+All page content lives in `public/content/` as Markdown files. Edit them directly and redeploy — no rebuild needed for content-only changes.
+
+- `public/content/README.md` — landing page
+- `public/content/experience/` — work history
+- `public/content/projects/` — project writeups
+- `public/content/contact.md` — contact info
+
+## Add photos
+
+1. Drop images into `public/photos/<folder-name>/`
+2. Update `src/data/photoFolders.js`:
+
+```js
+export const photoFolders = [
+  { name: 'travel', images: ['tokyo.jpg', 'paris.jpg'] },
+  { name: 'misc',   images: ['dog.jpg'] },
+]
+```
+
+## Deploy
+
+Deploys automatically on push to `main` via GitHub Actions (`.github/workflows/deploy.yml`).
+
+To deploy manually:
+
+```bash
+npm run deploy
+```

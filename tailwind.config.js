@@ -1,34 +1,28 @@
-module.exports = {
-  purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
-  darkMode: false, // or 'media' or 'class'
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{jsx,js}'],
   theme: {
     extend: {
-      fontFamily: {
-        'mono': ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', 'monospace'],
-      },
       colors: {
-        'vscode-dark': {
-          DEFAULT: '#1E1E1E',
-          'text': '#D4D4D4',
-          'comment': '#6A9955',
-          'keyword': '#C586C0',
-          'function-name': '#DCDCAA',
-          'number': '#B5CEA8',
-          'string': '#CE9178',
-          'entity': '#569CD6',
-          'match': '#C586C0',
-          'green': '#7AF8CA',
-          'purple': '#C099FF',
-          'background': '#1c1e30', // default background color
-          'hover': '#303454',
-          'border': '#506477', // default border color Cmd+Shift+F when changing to get SVG cases.
-          // 'border': '#3C3C3C', // default border color
-        },
+        lavender: {
+          bg:        '#faf6ff',   // editor — pale lavender cream
+          sidebar:   '#f0e8fc',   // explorer — soft lavender
+          titlebar:  '#e8ddf8',   // title bar — dusky lavender
+          statusbar: '#9b7fe8',   // status bar — medium purple
+          border:    '#ddd0f0',   // dividers — light lavender
+          hover:     '#ece4fa',   // hover — barely-there tint
+          active:    '#ddd0f0',   // selected item — soft lavender
+          tabBorder: '#7c5cbf',   // active tab accent — vivid purple
+          text:      '#2d1b5e',   // primary text — deep purple
+          muted:     '#9585bc',   // comments / line numbers — muted purple
+          accent:    '#6040a8',   // headings — rich purple
+          keyword:   '#8b35c0',   // links / keywords — vivid purple
+        }
       },
-    },
-  },
-  variants: {
-    extend: {},
+      fontFamily: {
+        mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Consolas', 'monospace'],
+      }
+    }
   },
   plugins: [],
 }

@@ -1,0 +1,9 @@
+# dependencies
+node_modules/
+
+# build output (published to gh-pages, not tracked in source)
+dist/
+
+# local tooling / OS
+.claude/
+.DS_Store
