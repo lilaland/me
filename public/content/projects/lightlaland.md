@@ -27,6 +27,10 @@ lightlaland turns two 250W beam-curtain bars into a light show that follows a vi
 - **Smooth motion**: the motor speed follows the move, so slow sweeps glide instead of jumping two degrees at a time
 - **No frameworks**: a hand-rolled Art-Net sender, a 40 fps Python engine, and the whole UI in a single HTML file drawn on canvas
 
+![A beam-curtain bar lit cyan on the floor next to a laptop running an early version of the control page](/images/projects/lightlaland-first-test.jpg)
+
+*First light: a bar on the floor before it was mounted, running an early version of the control page.*
+
 ---
 
 ## Stack
