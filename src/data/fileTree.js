@@ -10,6 +10,7 @@ export const fileTree = [
     ]},
   ]},
   { name: 'projects', type: 'folder', children: [
+    { name: 'lightlaland.md', path: 'projects/lightlaland.md', type: 'file', icon: '🪩' },
     { name: 'eden.md', path: 'projects/eden.md', type: 'file', icon: '🎵' },
     { name: 'jsonic.md', path: 'projects/jsonic.md', type: 'file', icon: '{}' },
     { name: 'fish.md', path: 'projects/fish.md', type: 'file', label: 'fish.gba', icon: '🐟' },
