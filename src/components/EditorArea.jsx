@@ -115,15 +115,16 @@ export default function EditorArea() {
 
       if (isFish) {
         return (
-          <div className="flex-1 overflow-y-auto">
+          <div key={activeFile} className="flex-1 overflow-y-auto">
             <GBAEmulator />
             <MarkdownViewer content={content} raw={raw} />
           </div>
         )
       }
 
+      // Keyed by file so each one opens at the top, not at the last file's scroll position
       return (
-        <div className="flex-1 overflow-y-auto">
+        <div key={activeFile} className="flex-1 overflow-y-auto">
           <MarkdownViewer content={content} raw={raw} />
         </div>
       )

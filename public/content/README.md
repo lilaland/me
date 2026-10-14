@@ -11,16 +11,16 @@ I'm a software engineer based in New York City, currently leading cross-function
 - Re-architecting event detection pipelines with agentic workflows
 - Technical lead for client and pre-sales builds; mentoring junior engineers and interns
 
-## Tech
+## Projects
 
-**Languages**
-Python · JavaScript (React, Angular, Vue) · Java (Spring) · C · R (Shiny) · Go · Dart
+<project-cards>
+<project-card path="projects/narwarp.md" image="/images/projects/narwarp-board.png" title="Narwarp">A kanban board that runs your agents.</project-card>
+<project-card path="projects/eden.md" image="/images/projects/eden.jpg" title="Eden">The controller is the instrument.</project-card>
+<project-card path="projects/lightlaland.md" image="/images/projects/lightlaland.jpg" title="lightlaland">A lighting desk that listens to the record.</project-card>
+<project-card path="projects/fish.md" image="/images/projects/fish.png" title="Fish">A Game Boy Advance game about protecting the oceans. Playable here.</project-card>
+</project-cards>
 
-**Infrastructure & Cloud**
-Azure (Functions, Logic Apps, Blob Storage) · AWS (DynamoDB, Lambda, Kinesis, CloudWatch) · Docker · Kubernetes · Terraform
+## Photos
 
-**Data**
-Snowflake · MongoDB · MySQL · ArangoDB · Power BI · Streamlit
-
-**Tools**
-Git · GitHub / GitLab Actions · Figma · Adobe Creative Cloud · Sentry · Postman · Wireshark · ELK Stack
+<photo-previews count="4">
+</photo-previews>
