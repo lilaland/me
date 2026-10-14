@@ -15,6 +15,9 @@ The best way to reach me is email. I read everything.
 **LinkedIn**
 [linkedin.com/in/lilanicpon](https://linkedin.com/in/lilanicpon)
 
+**Resume**
+[Download the PDF](/lila-nicpon-resume.pdf)
+
 ---
 
 *Based in New York City. Open to conversations about engineering, building teams, AI tooling, music technology, and whatever else you're curious about.*
