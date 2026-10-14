@@ -16,8 +16,9 @@ export const fileTree = [
     { name: 'fish.md', path: 'projects/fish.md', type: 'file', label: 'fish.gba', icon: '🐟' },
     { name: 'narwarp.md', path: 'projects/narwarp.md', type: 'file', icon: '🐋' },
   ]},
-  { name: 'photos', type: 'folder', path: 'photos', isGallery: true, children: [] },
+  { name: 'photos', type: 'folder', path: 'photos', isGallery: true, children: [], icon: '📷' },
   { name: 'contact.md', path: 'contact.md', type: 'file' },
+  { name: 'resume.pdf', path: 'lila-nicpon-resume.pdf', type: 'file' },
 ]
 
 export function getFileLabel(path) {

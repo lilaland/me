@@ -82,6 +82,7 @@ export default function EditorArea() {
 
   const isFish = activeFile === 'projects/fish.md'
   const isMarkdown = activeFile && activeFile.endsWith('.md')
+  const isPdf = activeFile && activeFile.endsWith('.pdf')
   const showToggle = isMarkdown && !loading && !error
 
   function renderContent() {
@@ -130,6 +131,25 @@ export default function EditorArea() {
       )
     }
 
+    if (isPdf) {
+      // Browsers that can't show a PDF inline (most phones) render the link instead
+      return (
+        <object key={activeFile} data={`/${activeFile}`} type="application/pdf" className="flex-1 w-full">
+          <div className="h-full flex flex-col items-center justify-center gap-2 p-6 text-sm text-lavender-muted">
+            This browser can't show the PDF here.
+            <a
+              href={`/${activeFile}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lavender-keyword underline decoration-dotted hover:decoration-solid"
+            >
+              Open the PDF
+            </a>
+          </div>
+        </object>
+      )
+    }
+
     return (
       <div className="flex-1 flex items-center justify-center text-lavender-muted text-sm">
         No preview available
@@ -143,6 +163,20 @@ export default function EditorArea() {
       <div className="flex items-center justify-between border-b border-lavender-border px-4" style={{ height: '28px', flexShrink: 0 }}>
         <Breadcrumb inline />
         {showToggle && <ViewToggle raw={raw} onToggle={() => setRaw(v => !v)} />}
+        {isPdf && (
+          <a
+            href={`/${activeFile}`}
+            download
+            className="flex items-center gap-1 px-2 py-0.5 text-xs rounded text-lavender-muted hover:text-lavender-text hover:bg-lavender-hover transition-colors"
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+              <polyline points="7 10 12 15 17 10"/>
+              <line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+            Download
+          </a>
+        )}
       </div>
       <div ref={contentRef} className="relative flex flex-col flex-1 overflow-hidden">
         {renderContent()}
