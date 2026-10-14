@@ -7,38 +7,34 @@
 ## Senior Software Engineer & Project Manager
 **November 2025 – Present**
 
-Leads end-to-end execution of cross-functional initiatives spanning analytics, backend services, and admin UI. This role sits at the intersection of engineering and program management — owning delivery from scoping through production.
+I run cross-functional projects across analytics, backend services and admin UI, from scoping through launch.
 
-- Re-architected event detection with agentic workflows, improving response latency and materially reducing the manual toil analysts faced with legacy rule-based approaches
-- Incubated intern-led POC-to-production programs, including a client-facing chatbot and an early opportunity scanner, providing structure, technical direction, and ruthless prioritization
-- Serves as technical lead for time-sensitive client and pre-sales builds, translating ambiguous requirements into shipped, deployable systems under deadline
-- Mentors junior engineers and interns, providing code reviews, architectural guidance, and career support
+- Re-architected event detection with agentic workflows, which improved response latency and cut much of the manual work analysts did with the old rule-based approach
+- Tech lead on time-sensitive client and pre-sales builds. The biggest was a prediction-markets intelligence platform, taken from an empty repo to production on AWS in under two months, with agentic contract matching across venues, custom RAG pipelines, admin and client portals, and an MCP-backed chatbot. It opened a new asset class for the platform
+- Took intern-led proofs of concept to production, including a client-facing chatbot and an early opportunity scanner
+- Mentor junior engineers and interns through design reviews and pairing, and manage one to three interns at a time
 
 ---
 
 ## Software Engineer
 **December 2024 – November 2025**
 
-Joined full-time after graduating Georgia Tech and immediately took on scope well beyond a typical new-grad role — owning infrastructure, hiring, and project delivery simultaneously.
+- Built RAG collection infrastructure across platform services, pulling dozens of data sources into explainable AI context used in production decision workflows
+- Designed and ran the engineering hiring process, from sourcing to offers, and hired 9 interns and 3 junior engineers with no mis-hires
+- Led intern projects on notifications, PDF processing pipelines and admin UI, from kickoff to production
+- Took over engineering execution in September 2025: moved planning from Jira to Linear, reworked the team's cadence and ran standups
+- Promoted to Senior Software Engineer in November 2025
 
-- Built and integrated RAG (Retrieval-Augmented Generation) collection infrastructure across platform services, unifying dozens of disparate data sources into explainable AI context used in production decision workflows
-- Designed and operationalized the engineering hiring funnel end-to-end — sourcing, evaluating, and hiring 9 interns and 3 junior engineers with 0 mis-hires
-- Drove intern project delivery across notification systems, PDF processing pipelines, and admin UI enhancements — from kickoff to production deployment
-- Migrated engineering planning from Jira to Linear, redesigned the operating cadence, and led standups — reducing friction and improving team visibility into in-flight work
-- Promoted to Senior SWE in November 2025
-
-**Stack:** Python · RAG / LLM tooling · Linear · Various internal platform services
+**Stack:** Python · RAG and LLM tooling
 
 ---
 
 ## Software Engineering Intern
 **Spring 2024, Fall 2024**
 
-Two terms across a year, building in the core intelligence layer of the platform while also contributing to the team's organizational health.
+- Built the original wallet monitoring used in Lockchain's core intelligence workflows
+- Built Twitter/X risk-event detection that surfaces social signals to analysts in near real time
+- Wrote design docs that sped up implementation and got teams aligned before code was written
+- Recruited and helped onboard the next intern cohort, and kept mentoring them after going full-time
 
-- Built foundational wallet monitoring infrastructure used in Lockchain's core intelligence workflows — one of the first systems to systematically track on-chain activity at scale within the platform
-- Developed Twitter/X risk-event detection pipelines, surfacing signals from social data in near real-time for analyst review
-- Authored design documents that accelerated implementation timelines and improved cross-team technical alignment — reducing ambiguity before code was written
-- Recruited and helped onboard the next intern cohort, compressing ramp-up time and setting new standards for intern onboarding
-
-**Stack:** Python · Twitter/X API · On-chain data tooling · Internal platform services
+**Stack:** Python · Twitter/X API · on-chain data

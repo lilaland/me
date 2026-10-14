@@ -1,8 +1,6 @@
-# Get In Touch
+# Contact
 
-I'm always happy to hear from people working on interesting problems — whether that's a potential collaboration, a question about something I've built, or just a friendly hello.
-
-The best way to reach me is email. I read everything.
+Email is the best way to reach me, whether it's about work or something I've built.
 
 ---
 
@@ -20,4 +18,4 @@ The best way to reach me is email. I read everything.
 
 ---
 
-*Based in New York City. Open to conversations about engineering, building teams, AI tooling, music technology, and whatever else you're curious about.*
+*Based in New York City. Happy to talk engineering, AI tooling or music tech.*
