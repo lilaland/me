@@ -10,114 +10,117 @@
 # id           optional; output name, defaults to the file name
 
 [[photo]]
-file = ""
-caption = "Elephant seals on the beach at Piedras Blancas, off Highway 1"
-place = "Piedras Blancas, California"
-lat = 35.6633
-lon = -121.2577
+file = "DSCF3505.JPG"
+caption = "Guardhouse against the Andes"
+place = "Machu Picchu, Peru"
+lat = -13.1631
+lon = -72.5450
 
 [[photo]]
-file = ""
-caption = "An art museum in Portugal"
-place = "Portugal"
-
-[[photo]]
-file = ""
-caption = "The lodge below Pico Ruivo"
-place = "Pico Ruivo, Madeira"
-lat = 32.7577
-lon = -16.9407
-
-[[photo]]
-file = ""
-caption = "Lightning and lava on Volcán de Fuego, seen from Acatenango"
+file = "IMG_7483.PNG"
+caption = "Lightning and lava on Fuego"
 place = "Acatenango, Guatemala"
 lat = 14.4940
 lon = -90.8790
 
 [[photo]]
-file = ""
-caption = "Me on the summit of Acatenango"
-place = "Acatenango, Guatemala"
-lat = 14.5011
-lon = -90.8758
-elevation_m = 3976
-
-[[photo]]
-file = ""
-caption = "Stars over the Inca Trail"
-place = "Inca Trail, Peru"
-
-[[photo]]
-file = ""
-caption = "Sunset on Highway 1"
-place = "Highway 1, California"
-
-[[photo]]
-file = ""
-caption = "A curve on Cadillac Mountain"
-place = "Cadillac Mountain, Acadia National Park, Maine"
-lat = 44.3526
-lon = -68.2251
-
-[[photo]]
-file = ""
-caption = "My partner among the cacti at Joshua Tree"
-place = "Joshua Tree National Park, California"
-
-[[photo]]
-file = ""
-caption = "A bird on the summit of Pico Ruivo"
+file = "DSCF1699.JPG"
+caption = "Bird on the summit"
 place = "Pico Ruivo, Madeira"
 lat = 32.7590
 lon = -16.9425
 elevation_m = 1862
 
 [[photo]]
-file = ""
-caption = "The Andes at sunset"
-place = "Andes, Peru"
+file = "DSCF0602.HEIC"
+caption = "Happy elephant seal"
+place = "Piedras Blancas, California"
+lat = 35.6633
+lon = -121.2577
 
 [[photo]]
-file = ""
-caption = "Sunrise from Acatenango"
-place = "Acatenango, Guatemala"
+file = "DSCF1585.JPG DSCF1752.JPG DSCF2221.HEIC"
+id = "dscf2221"
+caption = "MAAT and the 25 de Abril Bridge"
+place = "Lisbon, Portugal"
+lat = 38.6959
+lon = -9.1936
 
 [[photo]]
-file = ""
-caption = "A roof in Madeira"
-place = "Madeira, Portugal"
+file = "IMG_7485.JPG"
+caption = "Bend in the summit road"
+place = "Cadillac Mountain, Acadia National Park, Maine"
+lat = 44.3526
+lon = -68.2251
 
 [[photo]]
-file = ""
-caption = "Flowers on a gate in Madeira"
-place = "Madeira, Portugal"
-
-[[photo]]
-file = ""
-caption = "The Andes at sunset"
-place = "Andes, Peru"
-
-[[photo]]
-file = ""
-caption = "The two of us and a bird at Acadia"
-place = "Acadia National Park, Maine"
-
-[[photo]]
-file = ""
-caption = "Machu Picchu"
-place = "Machu Picchu, Peru"
-lat = -13.1631
-lon = -72.5450
-
-[[photo]]
-file = ""
-caption = "The ruins of Wiñay Wayna on the Inca Trail"
-place = "Wiñay Wayna, Peru"
+file = "DSCF3333.JPG"
+caption = "Wiñay Wayna"
+place = "Inca Trail, Peru"
 lat = -13.1931
 lon = -72.5367
 
 [[photo]]
-file = ""
+file = "DSCF0256.JPG"
+caption = "My partner among the cacti"
+place = "Joshua Tree National Park, California"
+
+[[photo]]
+file = "DSCF2729.JPG"
+caption = "Morning light in the Andes"
+place = "Andes, Peru"
+
+[[photo]]
+file = "DSCF1882.HEIC"
+caption = "Clay bird on a roof"
+place = "Madeira, Portugal"
+
+[[photo]]
+file = "DSCF0356.JPG"
 caption = "Pelicans off Malibu"
 place = "Malibu, California"
+
+[[photo]]
+file = "IMG_7484.PNG"
+caption = "Me on the summit"
+place = "Acatenango, Guatemala"
+lat = 14.5011
+lon = -90.8758
+elevation_m = 3976
+
+[[photo]]
+file = "DSCF1666.JPG"
+caption = "Lodge below the peak"
+place = "Pico Ruivo, Madeira"
+lat = 32.7577
+lon = -16.9407
+
+[[photo]]
+file = "DSCF3383.JPG"
+caption = "Stars through the trees"
+place = "Inca Trail, Peru"
+
+[[photo]]
+file = "IMG_4721.JPEG"
+caption = "The two of us and a gull"
+place = "Acadia National Park, Maine"
+
+[[photo]]
+file = "DSCF1876.JPG"
+caption = "Flowers on a gate"
+place = "Madeira, Portugal"
+
+[[photo]]
+file = "DSCF2726.JPG"
+caption = "Evening light in the Andes"
+place = "Andes, Peru"
+
+[[photo]]
+file = "P1240421.JPEG"
+caption = "Sunrise from Acatenango"
+place = "Acatenango, Guatemala"
+
+[[photo]]
+file = "DSCF0575.JPG"
+caption = "Power lines at sunset"
+place = "Highway 1, California"
