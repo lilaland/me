@@ -5,15 +5,15 @@
 ---
 
 ## Full Stack & DevOps Engineering Co-Op
-**Summer 2022 · Spring 2023 – Spring 2024**
+**Summer 2022 – March 2024**
 
-Three terms across nearly two years, embedded in Kudelski Security's engineering organization and contributing to a wide range of internal tools, security workflows, and open-source infrastructure. Projects spanned cloud automation, data pipelines, security operations, and enterprise tooling.
+Full-time co-op for two terms, Summer 2022 and Spring 2023. After that they kept me on part-time until I joined Lockchain in March 2024.
 
-- **Phishing email validation pipeline** — Built an automated triage pipeline using Azure Logic Apps, Azure Functions, and the OpenAI API to validate and classify inbound phishing reports. Deployed to 4,000 users across the organization, reducing manual analyst load on a high-volume workflow
-- **Sales tooling** — Developed internal sales analytics tools backed by Snowflake and surfaced via a Streamlit interface, containerized with Docker and deployed through a Kubernetes-based CI/CD pipeline
-- **SIEM rule monitoring application** — Built a full-stack web application using Spring (backend), Vue (frontend), and ArangoDB (graph database) to monitor and manage SIEM detection rules across security operations
-- **Repository vulnerability dashboard** — Created a Snowflake-backed Power BI dashboard giving engineering leadership visibility into dependency and vulnerability status across internal repositories
-- **Cross-cluster Elasticsearch orchestration** — Provisioned and orchestrated a multi-cluster Elasticsearch deployment using Terraform, enabling centralized log aggregation across distributed environments
-- **Apache Guacamole — GUACAMOLE-1320** — Contributed resumable chunked file upload support to Apache Guacamole, an open-source remote desktop gateway with 50M+ Docker pulls. The contribution was merged on July 30, 2022, and required working directly in the Java and C layers of a mature, widely-deployed open-source project
+- **Phishing email validation**: an Azure Logic Apps and Functions pipeline that uses the OpenAI API to check and classify reported phishing emails. Deployed to 4,000 users, it cut the manual triage analysts had to do
+- **Sales tools**: internal analytics on Snowflake with a Streamlit front end, containerized with Docker and deployed through Kubernetes CI/CD
+- **SIEM rule monitoring**: a web app (Spring, Vue, ArangoDB) for monitoring and managing SIEM detection rules
+- **Repository vulnerability dashboard**: Power BI on Snowflake, showing dependency and vulnerability status across internal repositories
+- **Cross-cluster Elasticsearch**: a multi-cluster deployment set up with Terraform for central log aggregation
+- **Apache Guacamole (GUACAMOLE-1320)**: added resumable chunked file uploads to the open-source remote desktop gateway (50M+ Docker pulls), in Java and C. Merged July 30, 2022
 
 **Stack:** Azure (Logic Apps, Functions) · OpenAI API · Snowflake · Streamlit · Docker · Kubernetes · Spring · Vue · ArangoDB · Power BI · Terraform · Elasticsearch · Java · C

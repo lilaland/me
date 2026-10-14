@@ -2,14 +2,14 @@
 
 # Lila Nicpon
 
-I'm a software engineer based in New York City, currently leading cross-functional initiatives at Lockchain — a digital assets intelligence platform — as a Senior Software Engineer and Project Manager. I graduated from Georgia Tech in December 2024 with a BS in Computer Science (GPA 3.92), and I've spent the time since shipping production systems, growing engineering teams, and trying to make the technology I build feel a little more human. Outside of work, I spend my time coding passion projects and making music, cooking elaborate things for friends, and occasionally disappearing into the wilderness with a camera.
+I'm a software engineer in New York City. I'm a Senior Software Engineer and Project Manager at Lockchain, a digital assets intelligence platform, where I've worked full-time since graduating from Georgia Tech in December 2024 with a BS in Computer Science. Outside work I build music and lighting projects (a few are below), play piano and ukulele, cook for friends, hike, and take photos.
 
 ## Currently
 
 **Senior Software Engineer & Project Manager** at [Lockchain](https://lockchain.ai)
-- Leading end-to-end execution of cross-functional initiatives across analytics, backend, and admin UI
-- Re-architecting event detection pipelines with agentic workflows
-- Technical lead for client and pre-sales builds; mentoring junior engineers and interns
+- Leading projects across analytics, backend and admin UI, from scoping to launch
+- Rebuilding event detection around agentic workflows
+- Tech lead on client and pre-sales builds, and mentoring junior engineers and interns
 
 [Read my resume (PDF)](/lila-nicpon-resume.pdf)
 
