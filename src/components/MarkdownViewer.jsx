@@ -3,6 +3,8 @@ import remarkGfm from 'remark-gfm'
 import rehypeHighlight from 'rehype-highlight'
 import rehypeRaw from 'rehype-raw'
 import 'highlight.js/styles/github.css'
+import ProjectCards, { ProjectCard } from './ProjectCards'
+import PhotoPreviews from './PhotoPreviews'
 
 const components = {
   h1: ({ children }) => <h1 className="text-2xl font-bold text-lavender-accent mb-4 mt-2">{children}</h1>,
@@ -49,6 +51,10 @@ const components = {
   hr: () => <hr className="border-lavender-border my-6" />,
   strong: ({ children }) => <strong className="text-lavender-text font-bold">{children}</strong>,
   em: ({ children }) => <em className="text-lavender-muted italic">{children}</em>,
+  // Custom blocks a content file can use (see README.md)
+  'project-cards': ProjectCards,
+  'project-card': ProjectCard,
+  'photo-previews': PhotoPreviews,
 }
 
 export default function MarkdownViewer({ content, raw }) {
