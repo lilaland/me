@@ -8,10 +8,17 @@ export function EditorProvider({ children }) {
   const [sidebarOpen, setSidebarOpen] = useState(
     () => typeof window === 'undefined' || window.innerWidth >= 768
   )
+  // Id of a photo the gallery should show in its lightbox when it opens
+  const [photoToOpen, setPhotoToOpen] = useState(null)
 
   function openFile(path) {
     if (!openFiles.includes(path)) setOpenFiles(prev => [...prev, path])
     setActiveFile(path)
+  }
+
+  function openPhoto(id) {
+    openFile('photos')
+    setPhotoToOpen(id)
   }
 
   function closeFile(path) {
@@ -22,8 +29,9 @@ export function EditorProvider({ children }) {
 
   return (
     <EditorContext.Provider value={{
-      openFiles, activeFile, sidebarOpen,
-      openFile, closeFile, setActiveFile,
+      openFiles, activeFile, sidebarOpen, photoToOpen,
+      openFile, closeFile, setActiveFile, openPhoto,
+      clearPhotoToOpen: () => setPhotoToOpen(null),
       toggleSidebar: () => setSidebarOpen(v => !v),
       closeSidebar: () => setSidebarOpen(false)
     }}>
