@@ -35,7 +35,7 @@ Data Analyst & Software Engineering Intern
 Environmental justice analysis in R that secured a Southern Company portfolio contract; built ArcGIS/ArcPy tooling and custom OCR table-scanner (pandas, bs4) for geospatial data pipelines.
 
 Projects  	 			
-Narwarp  An Obisidian-integrated Warp Terminal Fork with a 
+Narwarp  A local-first agentic harness: a terminal kanban board where Claude Code and local Ollama models work tickets (in development)
 JSonic  A clipboard-based pop-up JSON analyzer and differ you can run in the toolbar 
 Eden  Hacking a MIDI controller into a Jambox`
 Fish  An educational Game Boy Advance video game about saving our oceans, written in C, with original artwork. (Playable on my website!)
