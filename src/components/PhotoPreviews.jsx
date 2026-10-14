@@ -1,9 +1,9 @@
 import { useEditor } from '../context/EditorContext'
 import photos from '../data/photos.json'
 
-// <photo-previews count="4"> in a content file: the first few photos, linking to the gallery
+// <photo-previews count="4"> in a content file: the first few photos, each opening in the gallery
 export default function PhotoPreviews({ count = 4 }) {
-  const { openFile } = useEditor()
+  const { openFile, openPhoto } = useEditor()
   const shown = photos.slice(0, Number(count))
   if (shown.length === 0) return null
 
@@ -13,8 +13,8 @@ export default function PhotoPreviews({ count = 4 }) {
         {shown.map(photo => (
           <figure key={photo.id}>
             <button
-              onClick={() => openFile('photos')}
-              aria-label={`Open photos: ${photo.caption}`}
+              onClick={() => openPhoto(photo.id)}
+              aria-label={`Open ${photo.caption}`}
               className="block w-full rounded overflow-hidden focus:outline-none focus-visible:ring-2 focus-visible:ring-lavender-tabBorder"
             >
               <img
@@ -32,7 +32,7 @@ export default function PhotoPreviews({ count = 4 }) {
         onClick={() => openFile('photos')}
         className="mt-3 text-sm text-lavender-keyword underline decoration-dotted hover:decoration-solid"
       >
-        See all {photos.length} photos →
+        See all photos →
       </button>
     </div>
   )

@@ -1,4 +1,5 @@
 import { lazy, Suspense, useCallback, useEffect, useMemo, useState } from 'react'
+import { useEditor } from '../context/EditorContext'
 import photos from '../data/photos.json'
 import PhotoLightbox from './PhotoLightbox'
 
@@ -53,6 +54,14 @@ export default function PhotoGallery() {
     setFocusId(id)
     setView('map')
   }, [])
+
+  // A photo picked elsewhere (the home page previews) opens straight in the lightbox
+  const { photoToOpen, clearPhotoToOpen } = useEditor()
+  useEffect(() => {
+    if (photoToOpen == null) return
+    openById(photoToOpen)
+    clearPhotoToOpen()
+  }, [photoToOpen, openById, clearPhotoToOpen])
 
   if (photos.length === 0) {
     return (
