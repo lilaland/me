@@ -1,0 +1,123 @@
+# Photos for the site's photos view, in display order.
+#
+#   uv run scripts/photos/import_photos.py "~/Documents/lila site photos"
+#
+# file         the original's name in that folder (entries without one are skipped)
+# caption      shown under the photo
+# place        the location line
+# lat, lon     used only when the photo has no GPS of its own
+# elevation_m  used only when the photo has no GPS altitude; shown with "≈"
+# id           optional; output name, defaults to the file name
+
+[[photo]]
+file = ""
+caption = "Elephant seals on the beach at Piedras Blancas, off Highway 1"
+place = "Piedras Blancas, California"
+lat = 35.6633
+lon = -121.2577
+
+[[photo]]
+file = ""
+caption = "An art museum in Portugal"
+place = "Portugal"
+
+[[photo]]
+file = ""
+caption = "The lodge below Pico Ruivo"
+place = "Pico Ruivo, Madeira"
+lat = 32.7577
+lon = -16.9407
+
+[[photo]]
+file = ""
+caption = "Lightning and lava on Volcán de Fuego, seen from Acatenango"
+place = "Acatenango, Guatemala"
+lat = 14.4940
+lon = -90.8790
+
+[[photo]]
+file = ""
+caption = "Me on the summit of Acatenango"
+place = "Acatenango, Guatemala"
+lat = 14.5011
+lon = -90.8758
+elevation_m = 3976
+
+[[photo]]
+file = ""
+caption = "Stars over the Inca Trail"
+place = "Inca Trail, Peru"
+
+[[photo]]
+file = ""
+caption = "Sunset on Highway 1"
+place = "Highway 1, California"
+
+[[photo]]
+file = ""
+caption = "A curve on Cadillac Mountain"
+place = "Cadillac Mountain, Acadia National Park, Maine"
+lat = 44.3526
+lon = -68.2251
+
+[[photo]]
+file = ""
+caption = "My partner among the cacti at Joshua Tree"
+place = "Joshua Tree National Park, California"
+
+[[photo]]
+file = ""
+caption = "A bird on the summit of Pico Ruivo"
+place = "Pico Ruivo, Madeira"
+lat = 32.7590
+lon = -16.9425
+elevation_m = 1862
+
+[[photo]]
+file = ""
+caption = "The Andes at sunset"
+place = "Andes, Peru"
+
+[[photo]]
+file = ""
+caption = "Sunrise from Acatenango"
+place = "Acatenango, Guatemala"
+
+[[photo]]
+file = ""
+caption = "A roof in Madeira"
+place = "Madeira, Portugal"
+
+[[photo]]
+file = ""
+caption = "Flowers on a gate in Madeira"
+place = "Madeira, Portugal"
+
+[[photo]]
+file = ""
+caption = "The Andes at sunset"
+place = "Andes, Peru"
+
+[[photo]]
+file = ""
+caption = "The two of us and a bird at Acadia"
+place = "Acadia National Park, Maine"
+
+[[photo]]
+file = ""
+caption = "Machu Picchu"
+place = "Machu Picchu, Peru"
+lat = -13.1631
+lon = -72.5450
+
+[[photo]]
+file = ""
+caption = "The ruins of Wiñay Wayna on the Inca Trail"
+place = "Wiñay Wayna, Peru"
+lat = -13.1931
+lon = -72.5367
+
+[[photo]]
+file = ""
+caption = "Pelicans off Malibu"
+place = "Malibu, California"
