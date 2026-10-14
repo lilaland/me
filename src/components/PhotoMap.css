@@ -1,0 +1,101 @@
+.photo-map.leaflet-container {
+  background: #f0e8fc;
+  font: 12px/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+/* Mute OpenStreetMap's colours toward the site's lavender */
+.photo-map .leaflet-tile-pane {
+  filter: grayscale(0.7) sepia(0.25) hue-rotate(220deg) brightness(1.06) contrast(0.92);
+}
+
+.photo-marker,
+.photo-cluster {
+  background: none;
+  border: 0;
+}
+
+/* Scoped under .photo-map.leaflet-container to beat Leaflet's
+   `.leaflet-container .leaflet-marker-pane img { width: auto }` */
+.photo-map.leaflet-container .photo-marker div,
+.photo-map.leaflet-container .photo-cluster div {
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+
+.photo-map.leaflet-container .photo-marker img,
+.photo-map.leaflet-container .photo-cluster img {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 3px solid #faf6ff;
+  border-radius: 9999px;
+  box-shadow: 0 2px 8px rgba(45, 27, 94, 0.35);
+}
+
+.photo-marker:hover img,
+.photo-marker:focus img,
+.photo-cluster:hover img {
+  border-color: #7c5cbf;
+}
+
+.photo-cluster span {
+  position: absolute;
+  top: -4px;
+  right: -6px;
+  box-sizing: border-box;
+  min-width: 22px;
+  height: 22px;
+  padding: 0 6px;
+  border-radius: 9999px;
+  background: #7c5cbf;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(45, 27, 94, 0.4);
+}
+
+/* Tooltips sit in a zero-width pane, so without max-content they wrap at every word */
+.leaflet-tooltip.photo-tip {
+  width: max-content;
+  max-width: 240px;
+  padding: 6px 8px;
+  border: 1px solid #ddd0f0;
+  border-radius: 6px;
+  background: #faf6ff;
+  color: #2d1b5e;
+  white-space: normal;
+  box-shadow: 0 4px 12px rgba(45, 27, 94, 0.18);
+}
+
+.leaflet-tooltip.photo-tip strong {
+  display: block;
+  margin-bottom: 2px;
+  font-weight: 700;
+}
+
+.leaflet-tooltip.photo-tip span {
+  display: block;
+  color: #9585bc;
+}
+
+.leaflet-tooltip-top.photo-tip::before {
+  border-top-color: #ddd0f0;
+}
+
+.photo-map .leaflet-bar a {
+  color: #6040a8;
+}
+
+.photo-map .leaflet-control-attribution {
+  background: rgba(250, 246, 255, 0.85);
+  color: #9585bc;
+}
+
+.photo-map .leaflet-control-attribution a {
+  color: #8b35c0;
+}
