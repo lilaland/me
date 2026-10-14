@@ -1,6 +1,6 @@
 # Fish
 
-An educational Game Boy Advance video game about protecting the oceans — written entirely in C, with original artwork, and released into the public domain.
+An educational Game Boy Advance game about protecting the oceans, written in C with original artwork and released into the public domain.
 
 [View on GitHub →](https://github.com/lilaland/fish)
 
@@ -8,29 +8,21 @@ An educational Game Boy Advance video game about protecting the oceans — writt
 
 ## About the Game
 
-Fish is a GBA game built around ocean conservation as its central theme. You play as a fish navigating an environment where the ocean's health depends on your choices — an attempt to make environmental education feel interactive and fun rather than didactic.
-
-The game was designed to be accessible and genuinely playable, not just a technical demo. Every sprite, background, and animation was created as original artwork made specifically for the project.
+You play as a fish, and the ocean's health depends on your choices. The aim was to teach ocean conservation through a game people would actually want to play.
 
 ---
 
 ## How It Was Built
 
-Building for the Game Boy Advance means working within strict constraints: a 32-bit ARM processor, 256KB of work RAM, 96KB of video RAM, and no operating system to lean on. Everything is written in C against the GBA hardware directly.
+The Game Boy Advance has a 32-bit ARM processor, 256 KB of work RAM, 96 KB of video RAM and no operating system, so everything is C written straight against the hardware.
 
-Key aspects of the build:
-
-- **No OS, no frameworks** — all game logic, rendering, and input handling is written against GBA memory-mapped I/O registers directly
-- **Original artwork** — all sprites and backgrounds were created from scratch, converted into GBA-compatible tile and palette formats for the hardware
-- **ROM output** — the build produces a `.gba` ROM file that runs on original hardware and any standard emulator
-- **CC0 licensed** — released fully into the public domain; anyone can read it, build on it, or port it
+- **No OS or frameworks**: game logic, rendering and input all go through the GBA's memory-mapped I/O registers
+- **Original artwork**: every sprite and background was drawn for the game and converted into GBA tile and palette formats
+- **A real ROM**: the build produces a `.gba` file that runs on original hardware and any standard emulator
+- **CC0**: public domain, so anyone can read it, build on it or port it
 
 ---
 
 ## What I Learned
 
-Working this close to the hardware is a different kind of programming. There's no garbage collector, no standard library in the usual sense, and no margin for wasted cycles. Building Fish taught me how graphics pipelines work at the register level, how to manage memory without any safety net, and how satisfying it is to ship something that runs on a 20-year-old piece of hardware you can hold in your hand.
-
----
-
-The game is playable below ↓
+Working this close to the hardware is a different kind of programming: no garbage collector, no standard library to speak of, and no cycles to spare. Fish taught me how graphics work at the register level and how to manage memory with no safety net. And it's satisfying to have made something that runs on a 25-year-old handheld.
