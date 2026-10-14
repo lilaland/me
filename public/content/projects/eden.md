@@ -4,6 +4,8 @@
 
 Eden transforms the [PreSonus Atom SQ](https://www.presonus.com/products/Atom-SQ) MIDI controller into a fully standalone groovebox — no DAW, no laptop tethering, no software middleman. If you've ever wanted to just pick up a pad controller and play without booting Ableton, this is the answer.
 
+![The Atom SQ with its pads lit pink and yellow, in front of a laptop showing Eden's web interface](/images/projects/eden.jpg)
+
 <!-- YouTube embed goes here once video is uploaded -->
 
 ---
