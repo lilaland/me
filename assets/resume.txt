@@ -3,17 +3,17 @@ New York City | U.S. Citizen | (678) 876-6531 | lila@nicpon.com | lila.nicpon.co
 Relevant Experience
 Lockchain A digital assets intelligence platform
 Senior Software Engineer & Project Manager			November 2025 – Present
-Run planning and delivery for a 10+ person engineering team across the data pipeline, backend, internal tools and customer portal, and manage 1–3 interns at a time, driving scope, architecture, delivery, and launch.
+Run planning and delivery for a 10+ person engineering team across the data pipeline, backend, internal tools and customer portal, driving scope, architecture, and launch.
 Re-architected event detection as a two-stage LLM agent pipeline (extraction → QC), with confidence-gated auto-publish and AI duplicate detection, replacing two legacy systems. Added whole-flow shadow A/B testing so prompt and model changes are proven on live traffic before promotion.
-Founding engineer on a prediction-market intelligence product that matches 3.1M contracts across major prediction markets and shows venues their settlement risks and listing gaps. Owned the whole build, from the matching engine, data pipelines, alerting and client portal to the AWS and Postgres infrastructure (pgvecgtor + per-client row-level security, a key scan cut from 88 s to under 7 s), monitoring, performance and cost tuning, and the brand. Demoed at Predict 2026 in NYC, drawing interest from a variety of prediction markets venues.
-Incubated intern-led POC-to-production project program (platform chatbot, early listing opportunity scanner, agentic source evaluation, transaction monitoring scoring), converting exploratory work into shipped platform capabilities.
+Founding engineer on a prediction-market intelligence product that matches 3.1M contracts across major prediction markets and shows venues their settlement risks and listing gaps. Owned the whole build, from the matching engine, data pipelines, alerting and client portal to the AWS and Postgres infrastructure (pgvector + per-client row-level security, a key scan cut from 88 s to under 7 s), monitoring, performance and cost tuning, and the brand. Demoed at Predict 2026 in NYC, drawing interest from a variety of prediction markets venues.
+Created and ran an intern program that took POCs to production (platform chatbot, early listing opportunity scanner, agentic source evaluation, transaction monitoring scoring), converting exploratory work into shipped platform capabilities.
 Mentor junior engineers and interns through design reviews and pairing while concurrently managing 1–3 interns across active projects.
 Software Engineer			December 2024 – November 2025
 Built the company’s first RAG system on Weaviate with hybrid keyword and vector search, then merged document and OFAC sanctions search into one service with per-client private collections.
 Designed and built the infrastructure our LLM agents run on: an event-driven and scheduled job system that gives each agent type its own tools, memory, model, prompt version, tool-call budget and timeout, with reinforcement learning pipelines, tracing, retries, and shadow runs that never touch production. It runs 20+ job types, from event detection to source auditing, at 6,700+ jobs a month with fewer than 1 in 2,000 failing. Low-confidence output goes to analyst review queues instead of being published.
 Built a real-time price and stablecoin depeg alerting product from scratch, polling every 15 seconds and alerting clients by Slack and email.
-Set up Series A engineering hiring from scratch (process, take-home, interview guides) and hired 9 interns and 3 junior engineers, with no mis-hires.
-Drove intern project delivery for notification systems, PDF processing pipelines, and admin UI enhancements that expanded internal platform capabilities.
+Set up engineering hiring from scratch (process, take-home, interview guides) and hired 9 interns and 3 junior engineers, with no mis-hires.
+Drove intern project delivery for notification systems, PDF processing pipelines, and analyst data portal enhancements that expanded internal platform capabilities.
 Took ownership of engineering execution management in Sep 2025: migrated planning from Jira to Linear, redesigned operating cadence, and led standups to improve predictability and throughput.
 Promoted to Senior Software Engineer in Nov 2025 for expanded technical scope and sustained delivery leadership.
 Software Engineering Intern			Spring 2024, Fall 2024
@@ -44,9 +44,9 @@ Junior Design: Automated Algorithm Design VIP (Jan 2022 – May 2023): Founded a
 PLUS Leader (i.e. group tutor) for Data Structures and Algorithms & Object Oriented Programming
 Lean and Six Sigma Green Belt | Administered by IISE			September 2023
 Relevant Skills
-Programming: Python, JavaScript, Java, C, R, Go, Rust
-Tools: Adobe Creative Cloud Suite, Angular, AngularJS, Apache Tomcat, ArcGIS, Azure (Functions, Logic Apps, Blob Storage),
-Canva, Docker, ELK Stack, Figma, Flutter, Git, GitHub/GitLab Actions, Kubernetes, MS Teams, MongoDB, MySQL, Postman,
-Power BI, Processing, React, Slack, Snowflake, Streamlit, Swagger, Terraform, Tines, VirtualBox, Vue, Wireshark
-Less Relevant Skills: Music (Piano, ukulele, vinyl), Touching Grass (hiking, volleyball), Media (photography, graphic art,
-branding)
+Programming: Python, Typescript, Javascript, Java, C, R, Go, Rust
+Tools: Adobe Suite, Apache Tomcat, ArcGIS, Azure (Functions, Logic Apps, Blob Storage), AWS (Lambda, DynamoDB, SQS,
+Bedrock), Docker, Figma, GitHub/GitLab, Kubernetes, MongoDB, MySQL, Postman, Power BI, Processing, React, Slack,
+Snowflake, Terraform, Wireshark, Pydantic AI, MCP
+Less Relevant Skills: Music (Piano, ukulele, vinyl djing), Touching Grass (hiking, baseball, volleyball), Media (photography,
+graphic art, branding)
