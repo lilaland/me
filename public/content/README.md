@@ -7,9 +7,10 @@ I'm a software engineer in New York City. I'm a Senior Software Engineer and Pro
 ## Currently
 
 **Senior Software Engineer & Project Manager** at [Lockchain](https://lockchain.ai)
-- Leading projects across analytics, backend and admin UI, from scoping to launch
-- Rebuilding event detection around agentic workflows
-- Tech lead on client and pre-sales builds, and mentoring junior engineers and interns
+- Running planning and delivery for a 10+ person engineering team
+- Rebuilding event detection around LLM agents
+- Founding engineer on a prediction-market intelligence product
+- Hiring and mentoring interns and junior engineers
 
 [Read my resume (PDF)](/lila-nicpon-resume.pdf)
 

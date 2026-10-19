@@ -5,7 +5,7 @@
 ---
 
 ## Software Engineering Intern, Cloud Insights and Telemetry
-**Summer 2025**
+**Summer 2024**
 
 The team builds the telemetry that shows MongoDB how its managed deployments behave.
 
