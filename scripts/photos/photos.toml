@@ -11,7 +11,7 @@
 
 [[photo]]
 file = "DSCF3505.JPG"
-caption = "Guardhouse against the Andes"
+caption = "Machu Picchu guardhouse against the Andes"
 place = "Machu Picchu, Peru"
 lat = -13.1631
 lon = -72.5450
@@ -24,27 +24,27 @@ lat = 14.4940
 lon = -90.8790
 
 [[photo]]
-file = "DSCF1699.JPG"
-caption = "Bird on the Pico Ruivo summit"
-place = "Pico Ruivo, Madeira"
-lat = 32.7590
-lon = -16.9425
-elevation_m = 1862
-
-[[photo]]
-file = "DSCF0602.HEIC"
-caption = "Happy elephant seal"
-place = "Piedras Blancas, California"
-lat = 35.6633
-lon = -121.2577
-
-[[photo]]
 file = "DSCF1585.JPG DSCF1752.JPG DSCF2221.HEIC"
 id = "dscf2221"
 caption = "MAAT and the 25 de Abril Bridge"
 place = "Lisbon, Portugal"
 lat = 38.6959
 lon = -9.1936
+
+[[photo]]
+file = "DSCF0602.HEIC"
+caption = "Sand-flipping elephant seal"
+place = "Piedras Blancas, California"
+lat = 35.6633
+lon = -121.2577
+
+[[photo]]
+file = "DSCF1699.JPG"
+caption = "Bird on the Pico Ruivo summit"
+place = "Pico Ruivo, Madeira"
+lat = 32.7590
+lon = -16.9425
+elevation_m = 1862
 
 [[photo]]
 file = "IMG_7485.JPG"
