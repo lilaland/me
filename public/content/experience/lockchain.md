@@ -9,8 +9,9 @@ I started here as an intern in 2024. These days I'm part engineer, part project 
 ## Senior Software Engineer & Project Manager
 **November 2025 – Present**
 
-- Plan and run delivery for a 10+ person engineering team, and manage one to three interns at a time
-- Rebuilt event detection around two LLM agents: one pulls events out of news, the other checks them. It handles about 110 articles a day from 130 sources
+- Plan and run delivery for a 6-person engineering org, and manage one to three interns at a time
+- Owner of event detection, Lockchain's second-largest product. It scans news articles, security feeds and social media for events on 6,000 web3 entities, such as assets, protocols, counterparties and the people involved with them
+- Rebuilt it around two LLM agents: one pulls events out of news, the other checks them. It handles about 110 articles a day from 130 sources
 - Added shadow testing, so new prompts and models get tried on live traffic before they ship
 - Founding engineer on a prediction-market intelligence product covering Kalshi, Polymarket and Gemini. Built the matching engine, data pipelines, alerts, client portal, AWS and Postgres setup, monitoring and the brand, then demoed it at Predict 2026 in NYC
 - Run our intern project program, which has shipped a platform chatbot, an early listing-opportunity scanner, agentic source evaluation and transaction scoring
